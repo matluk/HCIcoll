@@ -9,6 +9,8 @@
 
 ## Uvod
 
+Internetske narudžbe već duži niz godina predstavljaju jedan od standarda moderne tehnologije. Cilj ove web aplikacije bio bi pregled trenutne ponude prehrambenih proizvoda i jela, te mogućnost dostave ili dolaska po gotov proizvod uz minimalno vremensko odstupanje.
+
 ### Korisnici
 
 Aplikacija je namijenjena širokom krugu korisnika svih dobnih grupa, osnovne razine informatičkog znanja.
