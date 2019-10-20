@@ -42,7 +42,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 1.png" width="600px" height="auto"/>
+    <img src="./folder/Desktop - 1.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - ponuda</em>
 </p>
@@ -50,7 +50,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 2.png" width="600px" height="auto"/>
+    <img src="./folder/Desktop - 2.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - narudžbe</em>
 </p>
@@ -58,7 +58,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 3.png" width="600px" height="auto"/>
+    <img src="./folder/Desktop - 3.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - rezervacije</em>
 </p>
@@ -66,7 +66,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 4.png" width="600px" height="auto"/>
+    <img src="./folder/Desktop - 4.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - blog</em>
 </p>
@@ -74,7 +74,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 5.png" width="600px" height="auto"/>
+    <img src="./folder/Desktop - 5.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - prijava i registracija</em>
 </p>
@@ -84,7 +84,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 1.png" width="600px" height="auto"/>
+    <img src="./folder/Android - 1.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - ponuda</em>
 </p>
@@ -92,7 +92,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 2.png" width="600px" height="auto"/>
+    <img src="./folder/Android - 2.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - narudžbe</em>
 </p>
@@ -100,7 +100,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 3.png" width="600px" height="auto"/>
+    <img src="./folder/Android - 3.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - rezervacije</em>
 </p>
@@ -108,7 +108,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 4.png" width="600px" height="auto"/>
+    <img src="./folder/Android - 4.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - blog</em>
 </p>
@@ -116,7 +116,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 5.png" width="600px" height="auto"/>
+    <img src="./folder/Android - 5.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - prijava i registracija</em>
 </p>
