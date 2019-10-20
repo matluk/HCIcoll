@@ -1,4 +1,4 @@
-## FESB, Računarstvo, 2019/20 <!-- omit in toc -->
+# RestoranApp <!-- omit in toc -->
 
 <!-- markdownlint-disable MD007 -->
 
