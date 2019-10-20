@@ -86,7 +86,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Android - 1.png" width="600px" height="auto"/>
     <br><br>
-    <em>Low fidelity - ponuda - mobilna verzija</em>
+    <em>Low fidelity - ponuda</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -94,7 +94,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Android - 2.png" width="600px" height="auto"/>
     <br><br>
-    <em>Low fidelity - narudžbe - mobilna verzija</em>
+    <em>Low fidelity - narudžbe</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -102,7 +102,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Android - 3.png" width="600px" height="auto"/>
     <br><br>
-    <em>Low fidelity - rezervacije - mobilna verzija</em>
+    <em>Low fidelity - rezervacije</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -110,7 +110,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Android - 4.png" width="600px" height="auto"/>
     <br><br>
-    <em>Low fidelity - blog - mobilna verzija</em>
+    <em>Low fidelity - blog</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -118,6 +118,6 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Android - 5.png" width="600px" height="auto"/>
     <br><br>
-    <em>Low fidelity - prijava i registracija - mobilna verzija</em>
+    <em>Low fidelity - prijava i registracija</em>
 </p>
 <!-- markdownlint-disable MD033 -->
