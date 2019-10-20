@@ -84,40 +84,40 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 1.png" width="600px" height="432.88px"/>
+    <img src="./folder/Android - 1.png" width="auto" height="auto"/>
     <br><br>
-    <em>Low fidelity - ponuda</em>
+    <em>Low fidelity - ponuda - mobilna verzija</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 2.png" width="600px" height="432.88px"/>
+    <img src="./folder/Android - 2.png" width="auto" height="auto"/>
     <br><br>
-    <em>Low fidelity - narudžbe</em>
+    <em>Low fidelity - narudžbe - mobilna verzija</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 3.png" width="600px" height="432.88px"/>
+    <img src="./folder/Android - 3.png" width="auto" height="auto"/>
     <br><br>
-    <em>Low fidelity - rezervacije</em>
+    <em>Low fidelity - rezervacije - mobilna verzija</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 4.png" width="600px" height="432.88px"/>
+    <img src="./folder/Android - 4.png" width="auto" height="auto"/>
     <br><br>
-    <em>Low fidelity - blog</em>
+    <em>Low fidelity - blog - mobilna verzija</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 5.png" width="600px" height="432.88px"/>
+    <img src="./folder/Android - 5.png" width="auto" height="autoV"/>
     <br><br>
-    <em>Low fidelity - prijava i registracija</em>
+    <em>Low fidelity - prijava i registracija - mobilna verzija</em>
 </p>
 <!-- markdownlint-disable MD033 -->
