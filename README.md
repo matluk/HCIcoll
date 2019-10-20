@@ -6,6 +6,9 @@
   - [Korisnici](#korisnici)
   - [Ograničenja korištenja sustava](#ograničenja-korištenja-sustava)
   - [Zadaće i zahtjevi sustava](#zadaće-i-zahtjevi-sustava)
+- [Low fidelity prototip](#low-fidelity-prototip)
+  - [Desktop verzija](#desktop-verzija)
+  - [Mobilna verzija](#mobilna-verzija)
 
 ## Uvod
 
@@ -30,3 +33,91 @@ Navest ćemo nužne zahtjeve i zadaće koje bi web aplikacija trebala ispunjavat
 - Korisnik će koristiti aplikaciju kao gost ili će se logirati u vlastiti profil
 - Broj _javnih_ stranica (one stranice koje ne zahtjevaju logiranje u sustav) je 5
 - Jedna od javnih stranica je blog (blog mora sadržavati minimalno 20 _postova_ koje mogu uključivati slike, videa, _code snippet_-e)
+
+## Low fidelity prototip
+
+Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototip uz korištenje [Figma](https://www.figma.com) dizajnerskog alata.
+
+### Desktop verzija
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Desktop - 1.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - ponuda</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Desktop - 2.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - narudžbe</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Desktop - 3.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - rezervacije</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Desktop - 4.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - blog</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Desktop - 5.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - prijava i registracija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+### Mobilna verzija
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Android - 1.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - ponuda - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Android - 2.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - narudžbe - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Android - 3.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - rezervacije - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Android - 4.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - blog - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Android - 5.png" width="600px" height="auto"/>
+    <br><br>
+    <em>Low fidelity - prijava i registracija - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
