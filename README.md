@@ -42,15 +42,15 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 1.png" width="600px" height="432.88px"/>
+    <img src="./images-lowfid/Desktop - 1.png" width="600px" height="432.88px"/>
     <br><br>
-    <em>Low fidelity - početna</em>
+    <em>images - početna</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 2.png" width="600px" height="432.88px"/>
+    <img src="./images-lowfid/Desktop - 2.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - ponuda</em>
 </p>
@@ -58,7 +58,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 3.png" width="600px" height="432.88px"/>
+    <img src="./images-lowfid/Desktop - 3.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - narudžbe</em>
 </p>
@@ -66,7 +66,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 4.png" width="600px" height="432.88px"/>
+    <img src="./images-lowfid/Desktop - 4.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - rezervacije</em>
 </p>
@@ -74,7 +74,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 5.png" width="600px" height="432.88px"/>
+    <img src="./images-lowfid/Desktop - 5.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - blog</em>
 </p>
@@ -82,7 +82,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Desktop - 6.png" width="600px" height="432.88px"/>
+    <img src="./images-lowfid/Desktop - 6.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - prijava i registracija</em>
 </p>
@@ -92,7 +92,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 1.png" width="auto" height="auto"/>
+    <img src="./images-lowfid/Android - 1.png" width="auto" height="auto"/>
     <br><br>
     <em>Low fidelity - ponuda - mobilna verzija</em>
 </p>
@@ -100,7 +100,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 2.png" width="auto" height="auto"/>
+    <img src="./images-lowfid/Android - 2.png" width="auto" height="auto"/>
     <br><br>
     <em>Low fidelity - narudžbe - mobilna verzija</em>
 </p>
@@ -108,7 +108,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 3.png" width="auto" height="auto"/>
+    <img src="./images-lowfid/Android - 3.png" width="auto" height="auto"/>
     <br><br>
     <em>Low fidelity - rezervacije - mobilna verzija</em>
 </p>
@@ -116,7 +116,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 4.png" width="auto" height="auto"/>
+    <img src="./images-lowfid/Android - 4.png" width="auto" height="auto"/>
     <br><br>
     <em>Low fidelity - blog - mobilna verzija</em>
 </p>
@@ -124,7 +124,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-    <img src="./folder/Android - 5.png" width="auto" height="autoV"/>
+    <img src="./images-lowfid/Android - 5.png" width="auto" height="autoV"/>
     <br><br>
     <em>Low fidelity - prijava i registracija - mobilna verzija</em>
 </p>
