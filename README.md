@@ -44,7 +44,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Desktop - 1.png" width="600px" height="432.88px"/>
     <br><br>
-    <em>Low fidelity - ponuda</em>
+    <em>Low fidelity - početna</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -52,7 +52,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Desktop - 2.png" width="600px" height="432.88px"/>
     <br><br>
-    <em>Low fidelity - narudžbe</em>
+    <em>Low fidelity - ponuda</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -60,7 +60,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Desktop - 3.png" width="600px" height="432.88px"/>
     <br><br>
-    <em>Low fidelity - rezervacije</em>
+    <em>Low fidelity - narudžbe</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -68,13 +68,21 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./folder/Desktop - 4.png" width="600px" height="432.88px"/>
     <br><br>
-    <em>Low fidelity - blog</em>
+    <em>Low fidelity - rezervacije</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
     <img src="./folder/Desktop - 5.png" width="600px" height="432.88px"/>
+    <br><br>
+    <em>Low fidelity - blog</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./folder/Desktop - 6.png" width="600px" height="432.88px"/>
     <br><br>
     <em>Low fidelity - prijava i registracija</em>
 </p>
