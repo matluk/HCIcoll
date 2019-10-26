@@ -9,6 +9,9 @@
 - [Low fidelity prototip](#low-fidelity-prototip)
   - [Desktop verzija](#desktop-verzija)
   - [Mobilna verzija](#mobilna-verzija)
+- [High fidelity prototip](#low-fidelity-prototip)
+  - [Desktop verzija](#desktop-verzija)
+  - [Mobilna verzija](#mobilna-verzija)
 
 ## Uvod
 
@@ -44,7 +47,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 <p align="center">
     <img src="./images-lowfid/Desktop - 1.png" width="600px" height="432.88px"/>
     <br><br>
-    <em>images - početna</em>
+    <em>Low fideltiy - početna</em>
 </p>
 <!-- markdownlint-disable MD033 -->
 
@@ -135,5 +138,109 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
     <img src="./images-lowfid/Android - 6.png" width="auto" height="autoV"/>
     <br><br>
     <em>Low fidelity - prijava i registracija - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+## High fidelity prototip
+
+---missing some content----
+
+### Desktop verzija
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Desktop - 1.png" width="600px" height="432.88px"/>
+    <br><br>
+    <em>High fidelity - početna</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Desktop - 2.png" width="600px" height="432.88px"/>
+    <br><br>
+    <em>High fidelity - ponuda</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Desktop - 3.png" width="600px" height="432.88px"/>
+    <br><br>
+    <em>High fidelity - narudžbe</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Desktop - 4.png" width="600px" height="432.88px"/>
+    <br><br>
+    <em>High fidelity - rezervacije</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Desktop - 5.png" width="600px" height="432.88px"/>
+    <br><br>
+    <em>High fidelity - blog</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Desktop - 6.png" width="600px" height="432.88px"/>
+    <br><br>
+    <em>High fidelity - prijava i registracija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+### Mobilna verzija
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Android - 1.png" width="auto" height="auto"/>
+    <br><br>
+    <em>High fidelity - početna - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Android - 2.png" width="auto" height="auto"/>
+    <br><br>
+    <em>High fidelity - ponuda - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Android - 3.png" width="auto" height="auto"/>
+    <br><br>
+    <em>High fidelity - narudžbe - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Android - 4.png" width="auto" height="auto"/>
+    <br><br>
+    <em>High fidelity - rezervacije - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Android - 5.png" width="auto" height="autoV"/>
+    <br><br>
+    <em>High fidelity - blog - mobilna verzija</em>
+</p>
+<!-- markdownlint-disable MD033 -->
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+    <img src="./images-highfid/Android - 6.png" width="auto" height="autoV"/>
+    <br><br>
+    <em>High fidelity - prijava i registracija - mobilna verzija</em>
 </p>
 <!-- markdownlint-disable MD033 -->
