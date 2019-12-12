@@ -200,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -638,4 +638,58 @@ pre tt:after {
   color: white;
   font-weight: bolder;
   padding: 10px;
+}
+
+.OfferItem {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  margin: 15px;
+  -webkit-box-shadow: 3px 3px 10px 3px rgba(143,140,143,1);
+  -moz-box-shadow: 3px 3px 10px 3px rgba(143,140,143,1);
+  box-shadow: 3px 3px 10px 3px rgba(143,140,143,1);
+}
+
+.OfferItem img {
+  border-radius: 10px;
+}
+
+.OfferItem h3 {
+  background-color: rgb(204, 203, 203);
+}
+
+.OfferItem .item-info {
+  padding: 10px;
+}
+
+.Ponuda .display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Login {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.Login label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 300px;
+  text-align: right;
+}
+
+.Login a {
+  background-color: rgb(45, 191, 248);
+  border-radius: 30px;
+  font-size: 25px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
