@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Img from 'gatsby-image'
+import cartIcon from '../images/svg_pics/shopping-cart.svg'
 
 export default class OfferItem extends Component {
     render() {
@@ -12,8 +13,7 @@ export default class OfferItem extends Component {
                     <br />
                     <br />
                     <b>Cijena: {this.props.price}</b>
-                    <button>Dodaj u kosaricu</button>
-
+                    <img src={cartIcon} style={{cursor: 'pointer'}}/>
                 </div>
             </div>
         )

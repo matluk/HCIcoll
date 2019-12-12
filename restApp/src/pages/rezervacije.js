@@ -1,14 +1,20 @@
 import React from 'react'
 import Layout from '../components/layout'
+import calendarIcon from '../images/svg_pics/calendar_today-24px.svg'
+import watchIcon from '../images/svg_pics/access_time-24px_gray.svg'
+import bookIcon from '../images/svg_pics/menu_book-24px_page_gray.svg'
 
 export default function rezervacije() {
     return (
         <Layout>
             <div className='Rezervacije'>
+                <img src={bookIcon} />
                 <form>
                     <label>Datum:</label><input type='date' />
+                    <img src={calendarIcon} />
                     <br />
                     <label>Vrijeme:</label><input type='text' placeholder='Unesite vrijeme' />
+                    <img src={watchIcon} />
                     <br />
                     <br />
                     <label>Broj osoba:</label>

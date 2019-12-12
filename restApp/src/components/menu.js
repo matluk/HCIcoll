@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import homeIcon from '../images/svg_pics/icon.svg'
 
 class Menu extends React.Component {
     state = { activeItem: 'home'}
@@ -19,6 +20,7 @@ class Menu extends React.Component {
                         <Link to="/">RestApp</Link>
                 </li>
 
+                <li><img src={homeIcon} alt='home icon' /></li>
                 <li style={{backgroundColor: 'skyblue'}}><Link to="/login">Login</Link></li>
                 <li><Link to="/ponuda">Ponuda</Link></li>
                 <li><Link to="/narudzbe">Narudzbe</Link></li>
