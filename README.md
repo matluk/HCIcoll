@@ -143,7 +143,7 @@ Uzimajući u obzir zahtjeve i zadaće sustava izrađen je _low fidelity_ prototi
 
 ## High fidelity prototip
 
----missing some content----
+Nakon izrade _low fidelity_ prototipa, izrađen je _high fidelity_ prototip. Pogodan je za vršenje evaluacije, a može se relativno lako izmjenjivati. Prethodno navedeni alat [Figma](https://www.figma.com) dodatno nudi mogućnost simuliranja ponašanja grafičkog sučelja. Konačno dobiveni _high fidelity_ prototip često daje vjerodostojan izgled konačnog proizvoda.
 
 ### Desktop verzija
 
