@@ -3,6 +3,11 @@ import Img from 'gatsby-image'
 import cartIcon from '../images/svg_pics/shopping-cart.svg'
 
 export default class OfferItem extends Component {
+
+    orderClick(e) {
+        this.props.handleClick(this.props.title)
+    }
+
     render() {
         return (
             <div className='OfferItem' key={this.props.key}>
@@ -13,7 +18,7 @@ export default class OfferItem extends Component {
                     <br />
                     <br />
                     <b>Cijena: {this.props.price}</b>
-                    <img src={cartIcon} style={{cursor: 'pointer'}}/>
+                    <img src={cartIcon} style={{cursor: 'pointer'}} onClick={this.orderClick.bind(this)} alt="Order button"/>
                 </div>
             </div>
         )
