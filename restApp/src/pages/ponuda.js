@@ -6,7 +6,7 @@ import OfferItem from '../components/offerItem'
 export default class ponuda extends Component {
     constructor(props) {
         super(props)
-        this.state = {orderItems: []}
+        this.state = {orderItems: [], searchValue: ''}
     }
 
     handleClick = (titleOfItem) =>{
@@ -19,16 +19,37 @@ export default class ponuda extends Component {
         console.log(this.state.orderItems)
     }
 
+    handleSearchChange = event => {
+        this.setState({searchValue: event.target.value})
+    }
+
+    searchOfferComponents = postsArr => {
+        const regexString = new RegExp(`^${this.state.searchValue}.*$`, 'i')
+        const filteredPosts = postsArr.filter(post => {
+            return post.node.frontmatter.title.search(regexString) !== -1
+        })
+        return filteredPosts
+    }
+
     render() {
         const { data } = this.props
+        const postsArr = this.searchOfferComponents(data.allMarkdownRemark.edges)
         return (
             <Layout>
             <div className='Ponuda'>
                 <h1>Naša ponuda:</h1>
                 <hr />
+                <input 
+                    id="search-field"
+                    type="text"
+                    placeholder="Pretraga..."
+                    name="pretragaField"
+                    value={this.state.searchValue}
+                    onChange={this.handleSearchChange}
+                />
                 <div className='display'>
 
-                    {data.allMarkdownRemark.edges.map(post => {
+                    {postsArr.map(post => {
                         const { id } = post.node.id
                         const { title, path, price } = post.node.frontmatter
                         const imgFluid = post.node.frontmatter.featuredImage.childImageSharp.fluid
@@ -51,38 +72,8 @@ export default class ponuda extends Component {
     }
 }
 
-// export default function ponuda( { data } ) {
-//     return (
-//         <Layout>
-//             <div className='Ponuda'>
-//                 <h1>Naša ponuda:</h1>
-//                 <hr />
-//                 <div className='display'>
-
-//                     {data.allMarkdownRemark.edges.map(post => {
-//                         const { id } = post.node.id
-//                         const { title, path, price } = post.node.frontmatter
-//                         const imgFluid = post.node.frontmatter.featuredImage.childImageSharp.fluid
-                        
-//                         return (
-//                             <OfferItem 
-//                                 key={id} 
-//                                 title={title} 
-//                                 price={price} 
-//                                 postUrl={path}
-//                                 imgFluid={imgFluid}/>
-//                         )
-//                     })}
-
-//                 </div>
-//             </div>
-//         </Layout>
-//     )
-// }
-
-
 export const pageQuery = graphql`
-    query OfferIndexQuery {
+    query OfferIndexAndSearchQuery {
         allMarkdownRemark {
             edges {
               node {

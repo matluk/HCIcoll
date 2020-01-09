@@ -11,12 +11,11 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="indexPage">
       <div className="indexPageContent">
-          <button style={{backgroundColor: 'orange'}}>Naruči</button>
-          <button style={{backgroundColor: 'skyblue'}}>Rezerviraj</button>
+          <Link to="/ponuda"><button style={{backgroundColor: 'orange'}}>Naruči</button></Link>
+          <Link to="/rezervacije"><button style={{backgroundColor: 'skyblue'}}>Rezerviraj</button></Link>
       </div>
     </div>
   </Layout>
-
 )
 
 export default IndexPage
