@@ -15,10 +15,12 @@ export default class ponuda extends Component {
 
     handleSearchChange = event => {
         this.setState({ searchValue: event.target.value })
+        this.searchOfferComponents()
     }
 
     searchOfferComponents = postsArr => {
         const regexString = new RegExp(`^${this.state.searchValue}.*$`, 'i')
+        if (postsArr === undefined) return []
         const filteredPosts = postsArr.filter(post => {
             return post.node.frontmatter.title.search(regexString) !== -1
         })
@@ -26,7 +28,8 @@ export default class ponuda extends Component {
     }
 
     render() {
-        const postsArr = this.props.data.allMarkdownRemark.edges
+        const data = this.props.data.allMarkdownRemark.edges
+        const postsArr = this.searchOfferComponents(data)        
         const { currentPage, numPages } = this.props.pageContext
         return (
             <Layout>
@@ -46,15 +49,16 @@ export default class ponuda extends Component {
                     {postsArr.map(post => {
                         const id = post.node.id
                         const { title, path, price } = post.node.frontmatter
+                        if (price < 0) return ''
                         const imgFluid = post.node.frontmatter.featuredImage.childImageSharp.fluid
                         
                         return (
                             <OfferItem
-                                key={post.node.fields.slug}
+                                key={post.node.fields.slug || id}
                                 id={id} 
                                 title={title} 
                                 price={price} 
-                                postUrl={path}
+                                postUrl={path || ''}
                                 imgFluid={imgFluid}
                                 handleClick={this.handleClick}/>
                         )

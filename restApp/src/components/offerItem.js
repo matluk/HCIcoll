@@ -16,7 +16,7 @@ export default class OfferItem extends Component {
         if (this.state.isActive) {
             return (
                 <div className='OfferItem' key={this.props.key}>
-                    <Img fluid={this.props.imgFluid} />
+                    {<Img fluid={this.props.imgFluid} /> || undefined}
                     <div className='item-info'>
                         <h3>{this.props.title}</h3>
                         <br />
