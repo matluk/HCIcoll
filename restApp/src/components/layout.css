@@ -711,3 +711,7 @@ pre tt:after {
   border: 2px solid white;
   padding: 10px;
 }
+
+#selected {
+  background-color: rgb(24, 143, 240);
+}

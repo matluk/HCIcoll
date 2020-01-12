@@ -36,9 +36,18 @@ module.exports = {
         name: 'pages'
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/ponuda.js`,
+        name: 'data',
+        ignore: [`**/\.*`]
+      }
+    },
     'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    // 'gatsby-plugin-layout',
     // {
     //   resolve: 'gatsby-plugin-react-svg',
     //   options: {

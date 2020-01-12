@@ -9,18 +9,12 @@ export default class ponuda extends Component {
         this.state = {orderItems: [], searchValue: ''}
     }
 
-    handleClick = (titleOfItem) =>{
-        console.log(titleOfItem)
-        const { orderItems } = this.state.orderItems
-        orderItems.push(titleOfItem)
-        this.setState({
-            orderItems: orderItems
-        })
-        console.log(this.state.orderItems)
+    handleClick = idOfItem =>{
+        console.log(idOfItem)
     }
 
     handleSearchChange = event => {
-        this.setState({searchValue: event.target.value})
+        this.setState({ searchValue: event.target.value })
     }
 
     searchOfferComponents = postsArr => {
@@ -33,7 +27,8 @@ export default class ponuda extends Component {
 
     render() {
         const { data } = this.props
-        const postsArr = this.searchOfferComponents(data.allMarkdownRemark.edges)
+        const postsArr = this.props.data.allMarkdownRemark.edges
+        const { currentPage, numPages } = this.props.pageContext
         return (
             <Layout>
             <div className='Ponuda'>
@@ -50,13 +45,14 @@ export default class ponuda extends Component {
                 <div className='display'>
 
                     {postsArr.map(post => {
-                        const { id } = post.node.id
+                        const id = post.node.id
                         const { title, path, price } = post.node.frontmatter
                         const imgFluid = post.node.frontmatter.featuredImage.childImageSharp.fluid
                         
                         return (
-                            <OfferItem 
-                                key={id} 
+                            <OfferItem
+                                key={post.node.fields.slug}
+                                id={id} 
                                 title={title} 
                                 price={price} 
                                 postUrl={path}
@@ -64,7 +60,17 @@ export default class ponuda extends Component {
                                 handleClick={this.handleClick}/>
                         )
                     })}
-
+                    <br />
+                    <br />
+                    {Array.from({ length: numPages }, (_, i) => (
+                      <Link 
+                        key={`pagination-number${i + 1}`} 
+                        to={`ponuda/${i === 0 ? "" : i + 1}`}
+                        className='page-number'
+                        >
+                        {i + 1}
+                      </Link>
+                    ))}
                 </div>
             </div>
         </Layout>
@@ -73,11 +79,18 @@ export default class ponuda extends Component {
 }
 
 export const pageQuery = graphql`
-    query OfferIndexAndSearchQuery {
-        allMarkdownRemark {
+    query OfferIndexAndSearchQuery($skip: Int!, $limit: Int!) {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___title], order: DESC }
+          limit: $limit
+          skip: $skip
+        ) {
             edges {
               node {
                 id
+                fields {
+                  slug
+                }
                 frontmatter {
                   path
                   title

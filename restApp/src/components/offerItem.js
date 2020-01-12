@@ -9,7 +9,7 @@ export default class OfferItem extends Component {
     }
 
     orderClick(e) {
-        this.props.handleClick(this.props.title)
+        this.props.handleClick(this.props.id)
     }
 
     render() {
@@ -18,7 +18,6 @@ export default class OfferItem extends Component {
                 <div className='OfferItem' key={this.props.key}>
                     <Img fluid={this.props.imgFluid} />
                     <div className='item-info'>
-
                         <h3>{this.props.title}</h3>
                         <br />
                         <br />

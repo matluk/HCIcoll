@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
 // import logo from '../images/svg_pics/naruci_icon_home.svg'
 
 export default function login() {

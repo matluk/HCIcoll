@@ -3,10 +3,14 @@ import Link from 'gatsby-link'
 import homeIcon from '../images/svg_pics/icon.svg'
 
 class Menu extends React.Component {
-    state = { activeItem: 'home'}
-    menuNames = ['Home', 'Login', 'Ponuda', 'Narudzbe', 'Rezervacije', 'Blog']
+    constructor(props) {
+        super(props)
+        this.state = {activeItem: ''}
+    }
 
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    handleMenuItemClick = event => {
+        this.setState({ activeItem: event.target.innerHTML})
+    }
 
     render() {
         return (
@@ -20,19 +24,14 @@ class Menu extends React.Component {
                         <Link to="/">RestApp</Link>
                 </li>
 
-                <li><img src={homeIcon} alt='home icon' /></li>
-                <li style={{backgroundColor: 'skyblue'}}><Link to="/login">Login</Link></li>
-                <li><Link to="/ponuda">Ponuda</Link></li>
-                <li><Link to="/narudzbe">Narudzbe</Link></li>
-                <li><Link to="/rezervacije">Rezervacije</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Home' ? 'selected' : ''}>        <Link to='/'><img src={homeIcon} alt='home icon'/></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Login' ? 'selected' : ''}>       <Link to="/login">Login</Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Ponuda' ? 'selected' : ''}>      <Link to="/ponuda">Ponuda</Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Narudzbe' ? 'selected' : ''}>    <Link to="/narudzbe">Narudzbe</Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Rezervacije' ? 'selected' : ''}> <Link to="/rezervacije">Rezervacije</Link></li>
             </ul>
         </div>
     )}
-}
-
-class MenuItem extends React.Component {
-
 }
 
 export default Menu
