@@ -40,7 +40,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages/ponuda.js`,
-        name: 'data',
+        name: 'ponuda-data',
         ignore: [`**/\.*`]
       }
     },

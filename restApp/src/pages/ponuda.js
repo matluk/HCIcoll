@@ -26,7 +26,6 @@ export default class ponuda extends Component {
     }
 
     render() {
-        const { data } = this.props
         const postsArr = this.props.data.allMarkdownRemark.edges
         const { currentPage, numPages } = this.props.pageContext
         return (
@@ -65,8 +64,7 @@ export default class ponuda extends Component {
                     {Array.from({ length: numPages }, (_, i) => (
                       <Link 
                         key={`pagination-number${i + 1}`} 
-                        to={`ponuda/${i === 0 ? "" : i + 1}`}
-                        className='page-number'
+                        to={`ponuda/${i === 0 ? "/" : i + 1}`}
                         >
                         {i + 1}
                       </Link>
