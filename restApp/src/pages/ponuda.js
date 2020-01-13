@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import OfferItem from '../components/offerItem'
+// import OrderPanel from '../components/orderPanel'
 
 export default class ponuda extends Component {
     constructor(props) {
@@ -9,8 +10,13 @@ export default class ponuda extends Component {
         this.state = {orderItems: [], searchValue: ''}
     }
 
-    handleClick = idOfItem =>{
-        console.log(idOfItem)
+
+    // gets orderObject from OfferItem component when clicked
+    handleClick = orderObject =>{
+        console.log(orderObject)
+        const { orderItems } = this.state
+        orderItems.push(orderObject)
+        this.setState({orderItems})
     }
 
     handleSearchChange = event => {
@@ -31,8 +37,10 @@ export default class ponuda extends Component {
         const data = this.props.data.allMarkdownRemark.edges
         const postsArr = this.searchOfferComponents(data)        
         const { currentPage, numPages } = this.props.pageContext
+        const { orderItems } = this.state
         return (
             <Layout>
+
             <div className='Ponuda'>
                 <h1>Naša ponuda:</h1>
                 <hr />
@@ -45,6 +53,15 @@ export default class ponuda extends Component {
                     onChange={this.handleSearchChange}
                 />
                 <div className='display'>
+                    <ul id='fuckme'>
+                        {orderItems.map(elem => {
+                            console.log(elem)
+                            return (
+                                <li><h5>{elem.title}</h5>: {elem.price}</li>
+                            )
+                        })}
+                    </ul>
+                    <Link to='/narudzbe' state={{orderItems, from: '/ponuda'}}>Naruci</Link>
 
                     {postsArr.map(post => {
                         const id = post.node.id
@@ -75,6 +92,7 @@ export default class ponuda extends Component {
                     ))}
                 </div>
             </div>
+            
         </Layout>
         )
     }

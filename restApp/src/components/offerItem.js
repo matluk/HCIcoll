@@ -9,7 +9,12 @@ export default class OfferItem extends Component {
     }
 
     orderClick(e) {
-        this.props.handleClick(this.props.id)
+        const orderObject = {
+            id: this.props.id,
+            title: this.props.title,
+            price: this.props.price
+        }
+        this.props.handleClick(orderObject)
     }
 
     render() {

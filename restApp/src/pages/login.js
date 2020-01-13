@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 // import Img from 'gatsby-image'
 // import logo from '../images/svg_pics/naruci_icon_home.svg'
 
@@ -22,7 +23,7 @@ export default function login() {
                     <br />
                     <br />
                     <br />
-                    <a>CONFIRM</a>
+                    <Link to='/'>CONFIRM</Link>
                 </form>
             </div>
         </Layout>
