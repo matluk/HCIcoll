@@ -1,23 +1,29 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
+import { element } from 'prop-types'
 
 export default function narudzbe({ location }) {
-    console.log(location.state.from)
     const { orderItems } = location.state
     let totalPrice = 0
     if (!!orderItems) {
+        // izracunaj frekvencije svakog elementa narudzbe
+        const countOrders = countElements(orderItems)
         return (
             <Layout>
                 <div className='Narudzbe'>
 
                     <ol className="items">
                     {
-                        orderItems.map((val, i) => {
-                        totalPrice += parseInt(val.price)
-                        return (
-                            <li>{` ${val.title} - Cijena: ${val.price}`}</li>
-                        )})
+                        // kreira pojedine narudzbe i ispisuje njihovo ime, cijenu i koliko komada narudzbe
+                        Object.keys(countOrders).map(key => {
+                            const countPrice = parseFloat(countOrders[key].price) * parseFloat(countOrders[key].count)
+                            const price = countOrders[key].price
+                            totalPrice += countPrice
+                            return (
+                                <li>{` ${key} - Cijena: ${price} - X ${countOrders[key].count}`}</li>
+                            )
+                        })
                     }
                     </ol>
                     <br />
@@ -45,4 +51,18 @@ export default function narudzbe({ location }) {
             </Layout>
         )
     }
+}
+
+function countElements(array) {
+    const result = {}
+    for(let i=0; i < array.length; ++i) {
+        const { title, price } = array[i]
+        if (!result[title]) {
+            result[title] = { price, count: 1}
+        } else {
+            result[title].count += 1
+        }
+    }
+
+    return result
 }
