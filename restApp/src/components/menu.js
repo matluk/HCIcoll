@@ -18,17 +18,17 @@ class Menu extends React.Component {
             <ul>
                 <li style={{
                     marginRight: '70px',
-                    backgroundColor: 'rgb(165, 99, 44)',
                     padding: '5px',
+                    color: 'black',
                 }}>
-                        <Link to="/">RestApp</Link>
+                        <Link to="/"><p2 className = 'p2'>RestApp</p2></Link>
                 </li>
 
                 <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Home' ? 'selected' : ''}>        <Link to='/'><img src={homeIcon} alt='home icon'/></Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Login' ? 'selected' : ''}>       <Link to="/login">Login</Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Ponuda' ? 'selected' : ''}>      <Link to="/ponuda">Ponuda</Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Narudzbe' ? 'selected' : ''}>    <Link to="/narudzbe">Narudzbe</Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Rezervacije' ? 'selected' : ''}> <Link to="/rezervacije">Rezervacije</Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Login' ? 'selected' : ''}>       <Link to="/login"><p1 className = 'p1'>Login</p1></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Ponuda' ? 'selected' : ''}>      <Link to="/ponuda"><p1 className>Ponuda</p1></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Narudzbe' ? 'selected' : ''}>    <Link to="/narudzbe"><p1>Narudzbe</p1></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Rezervacije' ? 'selected' : ''}> <Link to="/rezervacije"><p1>Rezervacije</p1></Link></li>
             </ul>
         </div>
     )}

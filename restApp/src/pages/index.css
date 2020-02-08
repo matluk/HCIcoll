@@ -1,10 +1,8 @@
-.indexPage {}
-
 .indexPageContent {
-    border: 2px solid black;
+    border: 4px solid black;
     height: 500px;
-    border-radius: 5px;
-    border-color: skyblue;
+    border-radius: 30px;
+    border-color: #4ADEED;
     text-align: center;
 }
 
@@ -14,7 +12,34 @@
     padding: 20px;
     border-radius: 100%;
     border: none;
-    height: 120px;
-    width: 120px;
+    height: 250px;
+    width: 250px;
     cursor: pointer;
 }
+
+p{
+    font-size: 30px;
+    color: white;
+}
+
+p1{
+    font-size: 20px;
+    color: black;
+    position :absolute;
+    top: 30px;
+}
+
+p2{
+    position :absolute;
+    height: 40px;
+    width: 145px;
+    margin-top: 15px;
+    color : black;
+    font-weight: bolder;
+    background-color:#C0A46D;
+    font-size: 30px;
+}
+
+ .menu{
+    background-color: rgba(204, 145, 78, 0.5);
+ }
