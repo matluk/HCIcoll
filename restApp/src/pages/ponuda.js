@@ -38,6 +38,8 @@ export default class ponuda extends Component {
         const postsArr = this.searchOfferComponents(data)        
         const { currentPage, numPages } = this.props.pageContext
         const { orderItems } = this.state
+        const res = countElements(orderItems)
+        console.log(res)
         return (
             <Layout>
 
@@ -97,6 +99,21 @@ export default class ponuda extends Component {
         )
     }
 }
+
+function countElements(array) {
+    const result = {}
+    for(let i=0; i < array.length; ++i) {
+        const { title, price } = array[i]
+        if (!result[title]) {
+            result[title] = { price, count: 1}
+        } else {
+            result[title].count += 1
+        }
+    }
+
+    return result
+}
+
 
 export const pageQuery = graphql`
     query OfferIndexAndSearchQuery($skip: Int!, $limit: Int!) {
