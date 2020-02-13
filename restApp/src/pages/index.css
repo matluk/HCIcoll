@@ -40,6 +40,27 @@ p2{
     font-size: 30px;
 }
 
- .menu{
+.menu{
     background-color: rgba(204, 145, 78, 0.5);
  }
+
+ li a {
+     text-decoration: none;
+     color: #fff;
+
+ }
+ 
+
+ .menu ul li .hov::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #2BB3C6;
+    transition: width .3s;
+}
+
+.menu ul li .hov:hover::after{
+    width: 100%;
+    transition: width .3s;
+}

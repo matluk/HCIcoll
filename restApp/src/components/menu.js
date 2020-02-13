@@ -21,14 +21,14 @@ class Menu extends React.Component {
                     padding: '5px',
                     color: 'black',
                 }}>
-                        <Link to="/"><p2 className = 'p2'>RestApp</p2></Link>
+                        <Link to="/"><p2>RestApp</p2></Link>
                 </li>
 
                 <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Home' ? 'selected' : ''}>        <Link to='/'><img src={homeIcon} alt='home icon'/></Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Login' ? 'selected' : ''}>       <Link to="/login"><p1 className = 'p1'>Login</p1></Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Ponuda' ? 'selected' : ''}>      <Link to="/ponuda"><p1 className>Ponuda</p1></Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Narudzbe' ? 'selected' : ''}>    <Link to="/narudzbe"><p1>Narudzbe</p1></Link></li>
-                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Rezervacije' ? 'selected' : ''}> <Link to="/rezervacije"><p1>Rezervacije</p1></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Login' ? 'selected' : ''}>       <Link to="/login"><p1 className = 'hov'>Login</p1></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Ponuda' ? 'selected' : ''}>      <Link to="/ponuda"><p1 className = 'hov'>Ponuda</p1></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Narudzbe' ? 'selected' : ''}>    <Link to="/narudzbe"><p1 className = 'hov'>Narudzbe</p1></Link></li>
+                <li onClick={ this.handleMenuItemClick } id={ this.state.activeItem === 'Rezervacije' ? 'selected' : ''}> <Link to="/rezervacije"><p1 className = 'hov'>Rezervacije</p1></Link></li>
             </ul>
         </div>
     )}
