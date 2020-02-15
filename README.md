@@ -297,7 +297,7 @@ Prilikom pregledavanja naručenih jela, korisnik bi se pritiskom na dugme "Natra
 Prototipu izostaje značajan dio implementacije navedene heuristike.
 
 <p align="center">
-    <img src="./scshots/back.png" width=auto height=auto/>
+    <img src="./scshots/back.png" width=900px height=530px/>
     <br><br>
     <em>Primjer korisničke kontrole</em>
 </p>
@@ -323,7 +323,7 @@ Ova heuristika korištena je u komponenti za rezervaciju mjesta u restoranu. Ve�
 iako komponenta sadržava i neke nedostatake (slide bar bi trebao imati i oznaku broja).
 
 <p align="center">
-    <img src="./scshots/rezerv.png" width=auto height=auto/>
+    <img src="./scshots/rezerv.png" width=700px height=530px/>
     <br><br>
     <em>Primjer prepoznavanja umjesto prisjećanja</em>
 </p>
@@ -341,7 +341,7 @@ rijetko koriste. Svaka dodatna informacija smanjuje vidljivost važnijih informa
 Glavna stranica aplikacije je rađena u duhu minimalističkog dizajna uz dozu estetike iako ima još prostora za poboljšanja.
 
 <p align="center">
-    <img src="./scshots/home.png" width=auto height=auto/>
+    <img src="./scshots/home.png" width=1000px height=530px/>
     <br><br>
     <em>Primjer estetike i minimalističkog dizajna</em>
 </p>
@@ -378,7 +378,7 @@ Blizina između vizualnih elemenata može doprinijeti stvaranju relevantnosti, h
 To načelo poštuju slike ponude i bloga u high fidelity poglavlju gdje proximity (blizina) među elementima značajno olakšava predočavanje stranice korisniku.
 Tako će korisnik s lakoćom znati da ova četiri grupirana elementa predstavljaju prikaz ponude za narudžbu. U ovom primjeru je poštovan i "alignment" pricnip.
 <p align="center">
-    <img src="./scshots/prox.png" width=auto height=auto/>
+    <img src="./scshots/prox.png" width=800px height=530px/>
     <br><br>
     <em>Primjer proximity-a</em>
 </p>
