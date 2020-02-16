@@ -32,7 +32,7 @@
 
 ## Uvod
 
-Internetske narudžbe već duži niz godina predstavljaju jedan od standarda moderne tehnologije. Cilj ove web aplikacije bio bi pregled trenutne ponude prehrambenih proizvoda i jela, mogućnost dostave, pregled slobodnih mjesta u slučaju rezervacije mjesta, te opcija dolaska po gotov proizvod uz približno točno vrijeme realizacije usluge.
+Internetske narudžbe već duži niz godina predstavljaju jedan od standarda moderne tehnologije. Cilj ove web aplikacije je pregled trenutne ponude prehrambenih proizvoda i jela, mogućnost dostave, pregled slobodnih mjesta u slučaju rezervacije mjesta, te opcija dolaska po gotov proizvod uz predviđeno približno točno vrijeme realizacije usluge.
 
 ### Korisnici
 
@@ -297,7 +297,7 @@ Prilikom pregledavanja naručenih jela, korisnik bi se pritiskom na dugme "Natra
 Prototipu izostaje značajan dio implementacije navedene heuristike.
 
 <p align="center">
-    <img src="./scshots/back.PNG" width=900px height=530px/>
+    <img src="./scshots/back.PNG" width=auto height=auto/>
     <br><br>
     <em>Primjer korisničke kontrole</em>
 </p>
@@ -323,7 +323,7 @@ Ova heuristika korištena je u komponenti za rezervaciju mjesta u restoranu. Ve�
 iako komponenta sadržava i neke nedostatake (slide bar bi trebao imati i oznaku broja).
 
 <p align="center">
-    <img src="./scshots/rezerv.PNG" width=700px height=530px/>
+    <img src="./scshots/rezerv.PNG" width=auto height=auto/>
     <br><br>
     <em>Primjer prepoznavanja umjesto prisjećanja</em>
 </p>
@@ -338,10 +338,10 @@ Prototip je u ranoj fazi implementacije i ne sadržava dobar primjer ove heurist
 
 Ova smjernica savjetuje da dijalozi ne smiju sadržavati informacije koje su irelevantne ili se
 rijetko koriste. Svaka dodatna informacija smanjuje vidljivost važnijih informacija.
-Glavna stranica aplikacije je rađena u duhu minimalističkog dizajna uz dozu estetike iako ima još prostora za poboljšanja.
+Glavna stranica aplikacije je izvedena u duhu minimalističkog dizajna uz dozu estetike.
 
 <p align="center">
-    <img src="./scshots/home.PNG" width=1000px height=530px/>
+    <img src="./scshots/home.PNG" width=auto height=auto/>
     <br><br>
     <em>Primjer estetike i minimalističkog dizajna</em>
 </p>
@@ -378,7 +378,7 @@ Blizina između vizualnih elemenata može doprinijeti stvaranju relevantnosti, h
 To načelo poštuju slike ponude i bloga u high fidelity poglavlju gdje proximity (blizina) među elementima značajno olakšava predočavanje stranice korisniku.
 Tako će korisnik s lakoćom znati da ova četiri grupirana elementa predstavljaju prikaz ponude za narudžbu. U ovom primjeru je poštovan i "alignment" pricnip.
 <p align="center">
-    <img src="./scshots/prox.PNG" width=800px height=530px/>
+    <img src="./scshots/prox.PNG" width=auto height=auto/>
     <br><br>
     <em>Primjer proximity-a</em>
 </p>
