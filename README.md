@@ -385,6 +385,6 @@ Ovaj princip ispunjen je i kod početne stranice gdje su dvije glavne funkcional
 ## Zaključak
 
 Tijekom izrade prototipa i web aplikacije lako je bilo primijetiti kako planiranje dizajna uvelike olakšava sav daljnji razvoj projekta.
-Bez izrade _low_ i _high fidelity_ prototipa, razvoj do krajnjeg produkta bio bi značajno otežan. Osim što navedeni prototipovi omogućavaju dobar uvid u razvoj i potrebe sustava, također olakšavaju izmjenu i evaluacija sustava. Osim toga, korištenjem i poštivanjem pravila heuristike i C.R.A.P. principa osiguravamo dobar dizajn, i smanjujemo moguće poteškoće prilikom korištenja aplikacije.
+Bez izrade _low_ i _high fidelity_ prototipa, razvoj do krajnjeg produkta bio bi značajno otežan. Osim što navedeni prototipovi omogućavaju dobar uvid u razvoj i potrebe sustava, također olakšavaju izmjenu i evaluaciju sustava. Osim toga, korištenjem i poštivanjem pravila heuristike i C.R.A.P. principa osiguravamo dobar dizajn i smanjujemo moguće poteškoće prilikom korištenja aplikacije.
 Iako mnogi ljudi prirodno nemaju osjećaj za dobar dizajn, koristeći navedena pravila i
 principe svatko može napraviti zadovoljavajući dizajn koji će biti intuitivan i jednostavan za korištenje.
