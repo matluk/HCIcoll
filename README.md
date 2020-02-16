@@ -7,11 +7,11 @@
   - [Ograničenja korištenja sustava](#ograničenja-korištenja-sustava)
   - [Zadaće i zahtjevi sustava](#zadaće-i-zahtjevi-sustava)
 - [Low fidelity prototip](#low-fidelity-prototip)
-  - [Desktop verzija](#desktop-verzija)
-  - [Mobilna verzija](#mobilna-verzija)
+  - [Desktop verzija _low fidelity_](#desktop-verzija)
+  - [Mobilna verzija _low fidelity_](#mobilna-verzija)
 - [High fidelity prototip](#high-fidelity-prototip)
-  - [Desktop verzija high fidelity](#desktop-verzija-high-fidelity)
-  - [Mobilna verzija high fidelity](#mobilna-verzija-high-fidelity)
+  - [Desktop verzija _high fidelity_](#desktop-verzija-high-fidelity)
+  - [Mobilna verzija _high fidelity_](#mobilna-verzija-high-fidelity)
 - [Heuristike](#heuristike)
   - [Podudaranje stvarnog svijeta sa sustavom](#podudaranje-stvarnog-svijeta-sa-sustavom)
   - [Konzistencija i standardi](#konzistencija-i-standardi)
@@ -32,7 +32,7 @@
 
 ## Uvod
 
-Internetske narudžbe već duži niz godina predstavljaju jedan od standarda moderne tehnologije. Cilj ove web aplikacije je pregled trenutne ponude prehrambenih proizvoda i jela, mogućnost dostave, pregled slobodnih mjesta u slučaju rezervacije mjesta, te opcija dolaska po gotov proizvod uz predviđeno približno točno vrijeme realizacije usluge.
+Internetske narudžbe već duži niz godina predstavljaju jedan od standarda moderne tehnologije, s neprekidnom tendencijom rasta. Cilj ove web aplikacije je omogućiti pregled trenutne ponude prehrambenih proizvoda i jela, mogućnost dostave, pregled slobodnih mjesta u slučaju rezervacije mjesta, te opcija dolaska po gotov proizvod uz predviđeno približno točno vrijeme realizacije usluge.
 
 ### Korisnici
 
@@ -44,15 +44,15 @@ Za korištenje stranice potreban je pristup internetu uz web preglednik novije v
 
 ### Zadaće i zahtjevi sustava
 
-Navest ćemo nužne zahtjeve i zadaće koje bi web aplikacija trebala ispunjavati:
+Nužni zahtjevi i zadaće koje bi web aplikacija trebala ispunjavati:
 
-- Vaša aplikacija će se koristiti iz web preglednika
-- Aplikacija će se koristiti na uređajima razičite veličine (-smartphones-, tableti, laptopi i desktop računala)
-- Korisnik može pretraživati/filtrirati produkte ili usluge
-- Broj produkata/usluga koje nudite putem web aplikacije veći je od 20
+- Aplikacija će se koristiti iz web preglednika
+- Aplikacija će se koristiti na uređajima razičite veličine (_smartphones_, tableti, laptopi i desktop računala)
+- Korisniku je omogućeno pretraživati/filtrirati produkte ili usluge
+- Broj produkata/usluga koji se nude putem web aplikacije veći je od 20
 - Korisnik će koristiti aplikaciju kao gost ili će se logirati u vlastiti profil
 - Broj -javnih- stranica (one stranice koje ne zahtjevaju logiranje u sustav) je 5
-- Jedna od javnih stranica je blog (blog mora sadržavati minimalno 20 -postova- koje mogu uključivati slike, videa, -code snippet--e)
+- Jedna od javnih stranica je blog (blog mora sadržavati minimalno 20 _postova_ koje mogu uključivati slike, videa, _code snippet_-e)
 
 ## Low fidelity prototip
 
@@ -264,7 +264,7 @@ Nakon izrade _low fidelity_ prototipa, izrađen je _high fidelity_ prototip. Pog
 
 ## Heuristike
 Jacob Nielsen i Rolfa Molich definirali su 10 heuristika koje su predstavljene u knjizi "Heuristička procjena
-korisničkog sučelja". Imajući na umu navedene heuristike analizirat ćemo kvalitetu sučelja.
+korisničkog sučelja". Imajući na umu navedene heuristike u nastavku rada je analizirana kvaliteta sučelja po pojedinim točkama.
 
 ### Podudaranje stvarnog svijeta sa sustavom
 
@@ -276,25 +276,24 @@ korisnicima.
 
 Ova heuristika nam nalaže da sustav mora slijediti inicijalno postavljane konvencije, svi elementi i procesi na stranici moraju biti
 jednoznačno definirani i u sprezi.
-Budući da je naš sustav web aplikacija, koriste se
+Budući da je ovaj sustav web aplikacija, koriste se
 standardi i konvencije specifične za prikaz podataka na webu. Navigacijska traka
 nalazi se na vrhu stranice.
 
 ### Vidljivost statusa sustava
 
-Sustav bi trebao informirati korisnika o događanjima u web sustavu uz prikladan feedback.
+Sustav bi trebao informirati korisnika o događanjima u web sustavu uz prikladan _feedback_.
 U ovoj prototipskoj implementacijskoj fazi još nema primjer takve upotrebe.
 
 
 ### Sloboda korisnika i korisnička kontrola
 
-Kod ove heuristike treba voditi računa o tome što korisnici mogu slučajno odabrati funkcionalnost
-koju nisu namjeravali te im trebamo omogućiti „izlaz u nuždi“ kako bi mogli s lakoćom napustiti
-neželjene opcije.
+Kod ove heuristike treba voditi računa o činjenici da korisnici mogu slučajno odabrati funkcionalnost
+koju nisu namjeravali te im treba omogućiti jednostavno napuštanje neželjene opcije.
 Sloboda korisnika ostvarena je preko trake izbornika, korisnik može uvijek pristupiti svim dijelovima
-aplikacije. Pritiskom na logo aplikacije ili "home" ikonu u navigacijskoj traci, u slučaju potrebe, korisnik se vraća na početnu stranicu.
+aplikacije. Pritiskom na logo aplikacije ili _home_ ikonu u navigacijskoj traci, u slučaju potrebe, korisnik se vraća na početnu stranicu.
 Prilikom pregledavanja naručenih jela, korisnik bi se pritiskom na dugme "Natrag", trebao moći vratiti na prikaz ponuđenih jela i dodatno modificirati listu narudžbe.
-Prototipu izostaje značajan dio implementacije navedene heuristike.
+Prototipu nedostaje značajan dio implementacije navedene heuristike.
 
 <p align="center">
     <img src="./scshots/back.PNG" width=auto height=auto/>
@@ -306,12 +305,12 @@ Prototipu izostaje značajan dio implementacije navedene heuristike.
 
 Ova smjernica savjetuje da je sustav koji sprječava nastanak grešaka bolji od onoga koji nudi dobre obavijesti o nastalim greškama.
 Važno je eliminirati dijelove sučelja koji uzrokuju greške i tražiti potvrde korisnika tijekom izvršavanja akcija.
-Aplikacija je dizajnirana sukladno s ovom heuristikom stoga postoje samo jednostavne funkcionalnosti
+Aplikacija je dizajnirana sukladno ovoj heuristici, stoga postoje samo jednostavne funkcionalnosti
 kod kojih ne bi trebalo dolaziti do grešaka prilikom korištenja. Sustav je u početnoj fazi razvoja i ova heuristika nije trenutno provedena u djelo.
 
 ### Detekcija i oporavak od greške
 
-Kod ove heuristike važno je da obavijesti o greškama budu jednostavne i razumljive uz ponuđen potencijalni način koji vodi do rješavanja problema.
+Kod ove heuristike važno je da obavijesti o greškama budu jednostavne i razumljive te da je ponuđen način rješavanja nastalog problema.
 Obavijesti o greškama moraju biti napisane razumljivim jezikom (bez kodova),
 
 ### Prepoznavanje umjesto prisjećanja
@@ -353,41 +352,39 @@ Zbog jednostavnosti aplikacije i njene početne faze razvoja, nije implementiran
 
 ## C.R.A.P. principi
 
-C.R.A.P. skup jednostavnih principa dizajna korišten je kako bi se postigao što bolji dizajn aplikacije. U sljedećim poglavljima biti
-će objašnjeni i prikazani na primjerima. 
+C.R.A.P. (_Contrast Repetition Alignemnt Proximity_) skup jednostavnih principa dizajna korišten je kako bi se postigao što bolji dizajn aplikacije. U sljedećim poglavljima su objašnjeni i prikazani na primjerima. 
 
 ### Contrast
 
-Kontrast usredotočuje našu pažnju i treba ga koristiti za isticanje najvažnijih točaka koje publika što lakše treba uočavati. Slika početne stranice sustava prethodno postavljna pod heuristikom "Estetika i minmalistički dizajn" može poslužiti kao primjer upotrebe kontrasta. Također u prikazu high fidelity-a, slike ponude i narudžbe koriste se principom kontrasta za isticanje pojedinih elemenata sustava (funkcionalni klikabilni elementi).
+Kontrast usredotočuje korisnikovu pažnju i treba ga koristiti za isticanje najvažnijih dijelova korisničkog sučelja, za koje je važno da ih se što lakše uoči. Slika početne stranice sustava prethodno postavljena pod heuristikom "Estetika i minmalistički dizajn" može poslužiti kao primjer upotrebe kontrasta. Također u prikazu _high fidelity_-a, slike ponude i narudžbe koriste se principom kontrasta za isticanje pojedinih elemenata sustava (funkcionalni klikabilni elementi).
 
 ### Repetition
 
 Ponavljanje dizajna kroz sučelje je važno za stvaranje jedinstva među elementima i održavanje konzistentnosti.
-Pod tim načelom su elementi sličnog značaja i funkcionalnosti prikazani istim fontom, veličinom i bojom. To je očigledno gledajući prikazane slike u poglavlju high fidelity-a.
+Pod tim načelom su elementi sličnog značaja i funkcionalnosti prikazani istim fontom, veličinom i bojom. Upotreba ovog principa je jasno vidljiva na slikama u poglavlju _high fidelity_-a.
 
 ### Alignment
 
 Ništa na stranici ne smije biti na proizvoljnom mjestu. Čak i kada ne postoje linije koje povezuju
 elemente naše oko i mozak ih stvaraju i bolje reagiraju kada su elementi vizualnog sučelja međusobno ovisno pozicionirani.
-U aplikaciji pravilo poravnavanja primjenjuje se na većinu elemenata. Iako neke od komponenti mogu kroz ovu stavku biti poboljšane, većina elemenata velikim dijelom zadovoljava
+U aplikaciji se pravilo poravnavanja primjenjuje na većinu elemenata. Iako neke od komponenti mogu kroz ovu stavku biti poboljšane, većina elemenata velikim dijelom zadovoljava
 načelo ovog principa.
 
 ### Proximity
 
 Blizina između vizualnih elemenata može doprinijeti stvaranju relevantnosti, hijerarhije ili organiziranosti strukture u konačnom prikazu stranice.
-To načelo poštuju slike ponude i bloga u high fidelity poglavlju gdje proximity (blizina) među elementima značajno olakšava predočavanje stranice korisniku.
-Tako će korisnik s lakoćom znati da ova četiri grupirana elementa predstavljaju prikaz ponude za narudžbu. U ovom primjeru je poštovan i "alignment" pricnip.
+Upotreba ovog principa vidljiva je na slikama ponude i bloga u _high fidelity_ poglavlju gdje blizina (_proximity_) među elementima značajno olakšava predočavanje stranice korisniku.
+Tako će korisnik s lakoćom znati da ova četiri grupirana elementa predstavljaju prikaz ponude za narudžbu. U ovom primjeru je poštovan i _alignment_ pricnip.
 <p align="center">
     <img src="./scshots/prox.PNG" width=auto height=auto/>
     <br><br>
     <em>Primjer proximity-a</em>
 </p>
-Ovaj princip ispunjen je i kod početne stranice gdje su dva glavna elementa od jednake važnosti postavljeni jedan do drugoga. To su ujedno i dvije glavne funkcionalnosti aplikacije.
+Ovaj princip ispunjen je i kod početne stranice gdje su dvije glavne funkcionalnosti aplikacije (_Naruči i Rezerviraj_) jednake važnosti te su stoga postavljeni jedan do drugoga.
 
 ## Zaključak
 
 Tijekom izrade prototipa i web aplikacije lako je bilo primijetiti kako planiranje dizajna uvelike olakšava sav daljnji razvoj projekta.
-Bez izrade _low_ i _high fidelity_ prototipa, razvoj do krajnjeg produkta bio bi značajno otežan. Osim što navedeni prototipi omogućavaju dobar uvid u razvoj i potrebe sustava, lako se vrše izmjene i uvelike se olakšava evaluacija sustava. Također, korištenjem i poštivanjem pravila heuristike i C.R.A.P. principa osiguravamo dobar dizajn, a
-korisnici ne bi trebali imati poteškoća prilikom korištenja aplikacije.
-Iako mnogi ljudi prirodno nemaju osjećaj za dobar dizajn, svatko može koristeći navedena pravila i
-principe, napraviti zadovoljavajući dizajn koji će biti intuitivan i jednostavan za korištenje.
+Bez izrade _low_ i _high fidelity_ prototipa, razvoj do krajnjeg produkta bio bi značajno otežan. Osim što navedeni prototipovi omogućavaju dobar uvid u razvoj i potrebe sustava, također olakšavaju izmjenu i evaluacija sustava. Osim toga, korištenjem i poštivanjem pravila heuristike i C.R.A.P. principa osiguravamo dobar dizajn, i smanjujemo moguće poteškoće prilikom korištenja aplikacije.
+Iako mnogi ljudi prirodno nemaju osjećaj za dobar dizajn, koristeći navedena pravila i
+principe svatko može napraviti zadovoljavajući dizajn koji će biti intuitivan i jednostavan za korištenje.
