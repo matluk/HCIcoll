@@ -51,7 +51,7 @@ Nužni zahtjevi i zadaće koje bi web aplikacija trebala ispunjavati:
 - Korisniku je omogućeno pretraživati/filtrirati produkte ili usluge
 - Broj produkata/usluga koji se nude putem web aplikacije veći je od 20
 - Korisnik će koristiti aplikaciju kao gost ili će se logirati u vlastiti profil
-- Broj -javnih- stranica (one stranice koje ne zahtjevaju logiranje u sustav) je 5
+- Broj _javnih_ stranica (one stranice koje ne zahtjevaju logiranje u sustav) je 5
 - Jedna od javnih stranica je blog (blog mora sadržavati minimalno 20 _postova_ koje mogu uključivati slike, videa, _code snippet_-e)
 
 ## Low fidelity prototip
