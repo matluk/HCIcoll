@@ -7,7 +7,7 @@ export default function narudzbe({ location }) {
     let orderItems = [];
     if(typeof window !== undefined) {
         if(location.state)
-          orderItems  = [ ...location.state.orderItems];
+          orderItems  = location.state.orderItems;
     }
     let totalPrice = 0
     if (!!orderItems) {
