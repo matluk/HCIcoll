@@ -14,11 +14,11 @@ export default function login() {
                 <br />
 
                 <form action='/'>
-                    <label>Username:</label> <input type='text' placeholder='Unesite ime' />
+                    <label for = 'name'>Username:</label> <input name='name' type='text' placeholder='Unesite ime' />
                     <br />
-                    <label>Phone number:</label> <input type='text' placeholder='Unesite broj mobitela' />
+                    <label for = 'phone'>Phone number:</label> <input name = 'phone' type='text' placeholder='Unesite broj mobitela' />
                     <br />
-                    <label>Password:</label> <input type='text' placeholder='Unesite lozinku' />
+                    <label for = 'password'>Password:</label> <input name= 'password' type='text' placeholder='Unesite lozinku' />
                     <br />
                     <br />
                     <br />

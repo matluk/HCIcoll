@@ -4,7 +4,11 @@ import { Link } from 'gatsby'
 import { element } from 'prop-types'
 
 export default function narudzbe({ location }) {
-    const { orderItems } = location.state
+    let orderItems = [];
+    if(typeof window !== undefined) {
+        if(location.state)
+          orderItems  = [ ...location.state.orderItems];
+    }
     let totalPrice = 0
     if (!!orderItems) {
         // izracunaj frekvencije svakog elementa narudzbe

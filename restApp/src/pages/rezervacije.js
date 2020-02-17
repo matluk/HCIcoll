@@ -10,19 +10,19 @@ export default function rezervacije() {
             <div className='Rezervacije'>
                 <img src={bookIcon} />
                 <form>
-                    <label>Datum:</label><input type='date' />
+                    <span>Datum:</span><input type='date' />
                     <img src={calendarIcon} />
                     <br />
-                    <label>Vrijeme:</label><input type='text' placeholder='Unesite vrijeme' />
+                    <span>Vrijeme:</span><input type='text' placeholder='Unesite vrijeme' />
                     <img src={watchIcon} />
                     <br />
                     <br />
-                    <label>Broj osoba:</label>
+                    <span>Broj osoba:</span>
                     <br />
                     <input type='range' min='1' max='10' className='slider'/>
                     <br />
                     <br />
-                    <label>Dodatni zahtjevi:</label>
+                    <span>Dodatni zahtjevi:</span>
                     <br />
                     <input type='text' placeholder='Unesite tekst' />
                     <br />
