@@ -116,11 +116,9 @@ function countElements(array) {
 
 
 export const pageQuery = graphql`
-    query OfferIndexAndSearchQuery($skip: Int!, $limit: Int!) {
+    query OfferIndexAndSearchQuery {
         allMarkdownRemark(
           sort: { fields: [frontmatter___title], order: DESC }
-          limit: $limit
-          skip: $skip
         ) {
             edges {
               node {
@@ -135,6 +133,10 @@ export const pageQuery = graphql`
                       childImageSharp {
                           fluid(maxWidth: 300) {
                               base64
+                              sizes
+                              aspectRatio
+                              src
+                              srcSet
                           }
                       }
                   }
