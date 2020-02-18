@@ -380,7 +380,7 @@ Tako će korisnik s lakoćom znati da ova četiri grupirana elementa predstavlja
     <br><br>
     <em>Primjer proximity-a</em>
 </p>
-Ovaj princip ispunjen je i kod početne stranice gdje su dvije glavne funkcionalnosti aplikacije (_Naruči i Rezerviraj_) jednake važnosti te su stoga postavljeni jedan do drugoga.
+Ovaj princip ispunjen je i kod početne stranice gdje su dvije glavne funkcionalnosti aplikacije ("Naruči" i "Rezerviraj") jednake važnosti te su stoga postavljeni jedan do drugoga.
 
 ## Zaključak
 
@@ -388,3 +388,5 @@ Tijekom izrade prototipa i web aplikacije lako je bilo primijetiti kako planiran
 Bez izrade _low_ i _high fidelity_ prototipa, razvoj do krajnjeg produkta bio bi značajno otežan. Osim što navedeni prototipovi omogućavaju dobar uvid u razvoj i potrebe sustava, također olakšavaju izmjenu i evaluaciju sustava. Osim toga, korištenjem i poštivanjem pravila heuristike i C.R.A.P. principa osiguravamo dobar dizajn i smanjujemo moguće poteškoće prilikom korištenja aplikacije.
 Iako mnogi ljudi prirodno nemaju osjećaj za dobar dizajn, koristeći navedena pravila i
 principe svatko može napraviti zadovoljavajući dizajn koji će biti intuitivan i jednostavan za korištenje.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/edfece88-bffc-4e68-8837-18676e96af08/deploy-status)](https://reverent-lumiere-282a0f.netlify.com/)

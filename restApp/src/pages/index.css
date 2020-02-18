@@ -1,4 +1,6 @@
 .indexPageContent {
+    position: absolute;
+    top: 187px;
     border: 4px solid black;
     height: 500px;
     border-radius: 30px;
@@ -64,3 +66,4 @@ p2{
     width: 100%;
     transition: width .3s;
 }
+

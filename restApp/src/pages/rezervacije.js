@@ -11,11 +11,11 @@ export default function rezervacije() {
             <div className='Rezervacije'>
                 <img src={bookIcon} />
                 <form>
+                    <img src={calendarIcon} class = 'img1' />
                     <span>Datum:</span><input type='date' />
-                    <img src={calendarIcon} />
                     <br />
+                    <img src={watchIcon} class = 'img1'/>
                     <span>Vrijeme:</span><input type='text' placeholder='Unesite vrijeme' />
-                    <img src={watchIcon} />
                     <br />
                     <br />
                     <span>Broj osoba:</span>
